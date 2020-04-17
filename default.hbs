@@ -28,12 +28,12 @@
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</section>
+                <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> | Santeri Liukkonen &copy; {{date format="YYYY"}}</section>
                 <nav class="site-footer-nav">
                     <a href="{{@site.url}}">Latest Posts</a>
                     {{#if @site.facebook}}<a href="{{facebook_url @site.facebook}}" target="_blank" rel="noopener">Facebook</a>{{/if}}
                     {{#if @site.twitter}}<a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener">Twitter</a>{{/if}}
-                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                    <a href="https://www.linkedin.com/showcase/18901187/" target="_blank" rel="noopener">LinkedIn</a>
                 </nav>
             </div>
         </footer>
@@ -67,7 +67,7 @@
                         </button>
                     </div>
                     <div class="message-success">
-                        <strong>Great!</strong> Check your inbox and click the link to confirm your subscription.
+                        <strong>Great!</strong> Check your inbox (as well as your spam folder) and click the link to confirm your subscription.
                     </div>
                     <div class="message-error">
                         Please enter a valid email address!

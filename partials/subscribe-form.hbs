@@ -1,6 +1,6 @@
 <section class="subscribe-form">
     <h3 class="subscribe-form-title">Did you enjoy this?</h3>
-    <p class="subscribe-form-description" style="margin-top: 10px">Then consider signing up for an occasional update. Get latest posts from the LBS delivered right into your inbox just 1-2 times per month. We never spam.</p>
+    <p class="subscribe-form-description" style="margin-top: 10px">Then consider signing up for an occasional update. Get latest posts from the LBS delivered right into your inbox max. 1-2 times per month. We never spam.</p>
     <form data-members-form="subscribe">
         <div class="form-group">
             <input class="subscribe-email" data-members-email placeholder="stay-awesome@example.com" autocomplete="false" />
@@ -9,6 +9,7 @@
                 <span class="button-loader">{{> "icons/loader"}}</span>
             </button>
         </div>
+        <p class="subscribe-form-description" style="margin-top: 20px">We are already a community of <span id="currentSubscriberCount"></span> subscribers!</p>
         <div class="message-success">
             <strong>Great!</strong> Check your inbox (or the spam folder) and click the link to confirm your subscription. 
         </div>
