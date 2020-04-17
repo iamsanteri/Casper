@@ -1,3 +1,17 @@
+# Santeri's notes: 
+
+REMEMBER TO FETCH LATEST OFFICIAL CHANGES
+
+To avoid missing out on future updates to the default Casper theme, keep your fork up to date (don't forget to commit your changes first).
+
+cd into/cloned/fork-repo
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+git fetch upstream
+git pull upstream master
+git push
+
+Article: https://grantwinney.com/how-to-customize-the-default-casper-theme-in-ghost/
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
