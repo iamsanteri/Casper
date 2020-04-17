@@ -1,14 +1,18 @@
 # Santeri's notes: 
 
-REMEMBER TO FETCH LATEST OFFICIAL CHANGES
+1. Fetch and merge latest official changes from the original repo
+2. Resolve possible conflicts, add modfifications
+3. Push changes to remote. Note that the remote changes will be automatically pushed to the live blog instance due to a custom integration. 
+
+Read more about the custom integration here: https://ghost.org/integrations/github/
 
 To avoid missing out on future updates to the default Casper theme, keep your fork up to date (don't forget to commit your changes first).
 
-cd into/cloned/fork-repo
-git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
-git fetch upstream
-git pull upstream master
-git push
+    cd into/cloned/fork-repo
+    git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+    git fetch upstream
+    git pull upstream master
+    git push
 
 Article: https://grantwinney.com/how-to-customize-the-default-casper-theme-in-ghost/
 
