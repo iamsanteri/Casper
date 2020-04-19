@@ -23,6 +23,13 @@
 
     {{!-- Google Analytics --}}
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    {{amp_components}}
+
+</head>
+
+<body class="amp-template">
+    
     <amp-analytics type="gtag" data-credentials="include">
     <script type="application/json">
         {
@@ -36,11 +43,6 @@
     </script>
     </amp-analytics>
 
-    {{amp_components}}
-
-</head>
-
-<body class="amp-template">
     {{#post}}
     <header class="main-header">
         <nav class="blog-title">
