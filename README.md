@@ -23,8 +23,8 @@ Motivation: https://www.syncwithtech.org/amp-template-ghost/
 ### Consider disabling AMP temporarily 
 
 - Consider customizing like mentioned here: https://www.syncwithtech.org/amp-template-ghost/
-- Remember to include a Google Analytics script!
-- Try to include a Mailchimp email conversion form in the AMP template for a post
+- Remember to include a Google Analytics script! More information on Ghost AMP templates in Ghost docs here: https://ghost.org/tutorials/custom-amp-themes-2/
+- Try to include a Mailchimp email conversion form in the AMP template for a post. Read more here: https://amp.dev/documentation/components/amp-form/
 - Remember to validate your template by adding /amp/#development=1 to the URL. This will not only render your AMP template, but also open the AMP validator.
 - Test the signup and conversion flow
 - Test visibility in Google Analytics. 
