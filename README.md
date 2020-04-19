@@ -16,6 +16,25 @@ To avoid missing out on future updates to the default Casper theme, keep your fo
 
 Article: https://grantwinney.com/how-to-customize-the-default-casper-theme-in-ghost/
 
+# Santeri's notes for modifying the AMP templates
+
+Motivation: https://www.syncwithtech.org/amp-template-ghost/
+
+### Consider disabling AMP is disabled temporarily 
+
+- Consider customizing like mentioned here: https://www.syncwithtech.org/amp-template-ghost/
+- Remember to include a Google Analytics script!
+- Try to include a Mailchimp email conversion form in the AMP template for a post
+- Remember to validate your template by adding /amp/#development=1 to the URL. This will not only render your AMP template, but also open the AMP validator.
+- Test the signup and conversion flow
+- Test visibility in Google Analytics. 
+
+## Consider adding a cookie statement
+
+- If needed
+
+# Standard Readme starts here: 
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
