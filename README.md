@@ -20,7 +20,7 @@ Article: https://grantwinney.com/how-to-customize-the-default-casper-theme-in-gh
 
 Motivation: https://www.syncwithtech.org/amp-template-ghost/
 
-### Consider disabling AMP is disabled temporarily 
+### Consider disabling AMP temporarily 
 
 - Consider customizing like mentioned here: https://www.syncwithtech.org/amp-template-ghost/
 - Remember to include a Google Analytics script!
@@ -33,7 +33,7 @@ Motivation: https://www.syncwithtech.org/amp-template-ghost/
 
 - If needed
 
-# Standard Readme starts here: 
+Standard Readme continues onwards from here: 
 
 # Casper
 
