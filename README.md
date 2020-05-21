@@ -1,3 +1,9 @@
+### Santeri's Github Workflow status badges
+
+![Deploy Theme](https://github.com/iamsanteri/casper-lostbookofsales/workflows/Deploy%20Theme/badge.svg)
+
+![Test](https://github.com/iamsanteri/casper-lostbookofsales/workflows/Test/badge.svg)
+
 # Santeri's notes: 
 
 1. Fetch and merge latest official changes from the original repo
