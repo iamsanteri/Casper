@@ -4,7 +4,7 @@ into the {body} of the default.hbs template --}}
 
 <header class="site-archive-header">
     {{> site-header}}
-    {{> header-background background="/content/images/lbs-santeri-park-books.JPG"}} {{!--Special header-image.hbs partial to generate the background image--}}
+    {{> header-background background="https://www.lostbookofsales.com/content/images/size/w2000/2020/04/lbs-santeri-park-books.JPG"}} {{!--Special header-image.hbs partial to generate the background image--}}
         <div class="inner site-header-content">
             <h1 class="site-title">Notes</h1>
             <h2 class="site-description">
@@ -20,7 +20,7 @@ into the {body} of the default.hbs template --}}
 
         <div class="post-feed">
             {{#foreach posts}}
-            
+
             {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
             {{> "post-card"}}
 
