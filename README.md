@@ -16,6 +16,7 @@ To avoid missing out on future updates to the default Casper theme, keep your fo
 
     cd into/cloned/fork-repo
     git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+    EXAMPLE: git remote add upstream https://github.com/TryGhost/Casper.git
     git fetch upstream
     git pull upstream master
     git push
