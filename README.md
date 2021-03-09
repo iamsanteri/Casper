@@ -15,10 +15,10 @@ Read more about the custom integration here: https://ghost.org/integrations/gith
 To avoid missing out on future updates to the default Casper theme, keep your fork up to date (don't forget to commit your changes first).
 
     cd into/cloned/fork-repo
-    git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+    git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git - Example below. 
     EXAMPLE: git remote add upstream https://github.com/TryGhost/Casper.git
     git fetch upstream
-    git pull upstream master
+    git pull upstream master - Branch changed to main from "master"
     git push
 
 Article: https://grantwinney.com/how-to-customize-the-default-casper-theme-in-ghost/
