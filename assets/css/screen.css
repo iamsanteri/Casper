@@ -917,7 +917,6 @@ is the very first element in the post content */
 .gh-content a {
     color: var(--ghost-accent-color);
     text-decoration: underline;
-    word-break: break-word;
 }
 
 .gh-content > blockquote,
