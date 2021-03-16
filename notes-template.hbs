@@ -2,14 +2,17 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 
-<div class="site-header-content">
-    <img class="site-header-cover" src="https://www.lostbookofsales.com/content/images/size/w2000/2020/04/lbs-santeri-park-books.JPG"/>
-    <h1 class="site-title">Notes</h1>
-    <h2 class="site-description">
-        Some things that I’ve learned come from books or articles. These notes and summaries are meant to be concise, reminding me of some high-level concepts. You can use them to remind yourself of something you've read already or get ideas on what to read next.
-    </h2>
-</div>
-
+<header class="site-archive-header">
+    {{> site-header}}
+    {{> header-background background="https://www.lostbookofsales.com/content/images/size/w2000/2020/04/lbs-santeri-park-books.JPG"}} {{!--Special header-image.hbs partial to generate the background image--}}
+        <div class="inner site-header-content">
+            <h1 class="site-title">Notes</h1>
+            <h2 class="site-description">
+                Some things that I’ve learned come from books or articles. These notes and summaries are meant to be concise, reminding me of some high-level concepts. You can use them to remind yourself of something you've read already or get ideas on what to read next.
+            </h2>
+        </div>
+    </div>
+</header>
 
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
@@ -26,6 +29,8 @@ into the {body} of the default.hbs template --}}
 
     </div>
 </main>
+
+{{> site-header}}
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
