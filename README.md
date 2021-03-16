@@ -4,7 +4,17 @@
 
 ![Test](https://github.com/iamsanteri/casper-lostbookofsales/workflows/Test/badge.svg)
 
+# [16-03-2021] IMPORTANT UPDATE: 
+
+Since Ghost version 4.0, as well as the latest updates to the the Casper theme, there are now too many changes in the original source to merge and resolve conflicts with the LBS fork. 
+
+There are so many conflicts and changes based on the custom additions to this theme, that we need to fully branch off from the upstream source and remain as-is. Only custom changes without merging the upstream should be processed. 
+
+For a next big jump and refresh, start working off from a complete custom template.  
+
 # Santeri's notes: 
+
+### Read update above before proceeding. 
 
 1. Fetch and merge latest official changes from the original repo
 2. Resolve possible conflicts, add modfifications
@@ -12,7 +22,7 @@
 
 Read more about the custom integration here: https://ghost.org/integrations/github/
 
-To avoid missing out on future updates to the default Casper theme, keep your fork up to date (don't forget to commit your changes first).
+Update, no longer relevant: ~~To avoid missing out on future updates to the default Casper theme, keep your fork up to date (don't forget to commit your changes first)~~.
 
     cd into/cloned/fork-repo
     git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git - Example below. 
