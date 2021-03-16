@@ -2,17 +2,13 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 
-<header class="site-archive-header">
-    {{> site-header}}
-    {{> header-background background="https://www.lostbookofsales.com/content/images/size/w1600/2021/03/yannick-pulver-unsplash-LBS.jpg"}} {{!--Special header-image.hbs partial to generate the background image--}}
-        <div class="inner site-header-content">
-            <h1 class="site-title">LBS Newsletter</h1>
-            <h2 class="site-description">
-                Find here the past issues of LBS newsletter. Consider subscribing for an occasional hand-made update.
-            </h2>
-        </div>
-    </div>
-</header>
+<div class="site-header-content">
+    <img class="site-header-cover" src="https://www.lostbookofsales.com/content/images/size/w1600/2021/03/yannick-pulver-unsplash-LBS.jpg"/>
+    <h1 class="site-title">LBS Newsletter</h1>
+    <h2 class="site-description">
+        Find here the past issues of LBS newsletter. Consider subscribing for an occasional hand-made update.
+    </h2>
+</div>
 
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
@@ -29,8 +25,6 @@ into the {body} of the default.hbs template --}}
 
     </div>
 </main>
-
-{{> site-header}}
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
